@@ -50,8 +50,7 @@ public class Tests extends BaseTest {
 			org.openqa.selenium.TimeoutException.class })
 	public void test04() throws Exception {
 		driver.navigate().to("https://www.spyne.ai/image-upscaler/upload");
-		By uploadBtn = By.xpath("//*[contains(text(),'Upload')]");
-		new Actions(driver).click(driver.findElement(uploadBtn)).build().perform();
+		driver.findElement(By.xpath("//*[contains(text(),'Upload')]")).click();
 		String[] cmd = { fileUploadPath, invalidFilePath };
 		Runtime.getRuntime().exec(cmd);
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[contains(@class,'spinner')]")));

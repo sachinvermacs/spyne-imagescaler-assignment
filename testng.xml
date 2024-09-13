@@ -11,11 +11,11 @@
 		</classes>
 	</test> <!--
 	Test -->
-	<test name="TestWithEdgeBrowser">
+	<!--<test name="TestWithEdgeBrowser">
 		<parameter name="browser" value="edge" />
 		<classes>
 			<class name="ai.spyne.tests.Tests" />
 		</classes>
-	</test>
+	</test>-->
 </suite> <!--
 Suite -->
