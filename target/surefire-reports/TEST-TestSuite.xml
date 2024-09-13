@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="212.387" tests="6" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="22+36"/>
+    <property name="sun.boot.library.path" value="C:\Users\sachi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.0.v20240322-1225\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sachi\eclipse-workspace\imageupscalerautomation-testassignment"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sachi\eclipse-workspace\imageupscalerautomation-testassignment"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="22+36"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sachi\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\sachi\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf812647798051665053.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Users\sachi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.0.v20240322-1225\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/sachi/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin/server;C:/Users/sachi/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Docker\Docker\resources\bin;C:\Users\sachi\AppData\Local\Microsoft\WindowsApps;;C:\Users\sachi\OneDrive\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="66.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sachi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="22"/>
+    <property name="user.name" value="sachi"/>
+    <property name="java.class.path" value="C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always clean install"/>
+    <property name="java.home" value="C:\Users\sachi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.0.v20240322-1225\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="22"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\sachi\eclipse-workspace\imageupscalerautomation-testassignment\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2024-03-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-22+36"/>
+    <property name="m2e.build.project.data.socket.port" value="52429"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test01" classname="ai.spyne.tests.Tests" time="0.305">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at ai.spyne.tests.Tests.test01(Tests.java:17)
+</failure>
+    <system-out><![CDATA[Directory Results/ExecutionReports already exists
+...
+... TestNG 7.10.2 by Cédric Beust (cedric@beust.com)
+...
+
+Chrome browser is launched
+Edge browser is launched
+Directory Results/Screenshots already exists
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="test01" classname="ai.spyne.tests.Tests" time="4.245"/>
+  <testcase name="test02" classname="ai.spyne.tests.Tests" time="56.161">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[contains(text(),&apos;Upload an image&apos;)] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.121, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\sachi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52442/devtoo..., se:cdpVersion: 128.0.6613.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 99f5e789ec21cd577e7d1b125ebfd46d" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //button[contains(text(),'Upload an image')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.121, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\sachi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52442/devtoo..., se:cdpVersion: 128.0.6613.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 99f5e789ec21cd577e7d1b125ebfd46d
+	at ai.spyne.tests.Tests.test02(Tests.java:23)
+</failure>
+    <system-out><![CDATA[C:\Users\sachi\eclipse-workspace\imageupscalerautomation-testassignment\src\test\resources\executableScript\fileUpload.Exe
+C:\Users\sachi\eclipse-workspace\imageupscalerautomation-testassignment\src\test\resources\testFiles\download.jpg
+Directory Results/Screenshots already exists
+]]></system-out>
+  </testcase>
+  <testcase name="test02" classname="ai.spyne.tests.Tests" time="11.248">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id=&quot;__next&quot;]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/img (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id="__next"]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/img (tried for 30 second(s) with 500 milliseconds interval)
+	at ai.spyne.tests.Tests.test02(Tests.java:32)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="__next"]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/img"}
+  (Session info: MicrosoftEdge=128.0.2739.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d59602539c4264e60438925490649dcc, findElement {using=xpath, value=//*[@id="__next"]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/img}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52444}, msedge: {msedgedriverVersion: 128.0.2739.67 (248489733b87..., userDataDir: C:\Users\sachi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52444/devtoo..., se:cdpVersion: 128.0.2739.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d59602539c4264e60438925490649dcc
+	at ai.spyne.tests.Tests.test02(Tests.java:32)
+</failure>
+    <system-out><![CDATA[Directory Results/Screenshots already exists
+]]></system-out>
+  </testcase>
+  <testcase name="test03" classname="ai.spyne.tests.Tests" time="62.941">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;__next&apos;]//button[2]//span[@class=&apos;text-xs&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=128.0.2739.67)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [d59602539c4264e60438925490649dcc, findElement {using=xpath, value=//*[@id=&apos;__next&apos;]//button[2]//span[@class=&apos;text-xs&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52444}, msedge: {msedgedriverVersion: 128.0.2739.67 (248489733b87..., userDataDir: C:\Users\sachi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52444/devtoo..., se:cdpVersion: 128.0.2739.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d59602539c4264e60438925490649dcc" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='__next']//button[2]//span[@class='text-xs']"}
+  (Session info: MicrosoftEdge=128.0.2739.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d59602539c4264e60438925490649dcc, findElement {using=xpath, value=//*[@id='__next']//button[2]//span[@class='text-xs']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52444}, msedge: {msedgedriverVersion: 128.0.2739.67 (248489733b87..., userDataDir: C:\Users\sachi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52444/devtoo..., se:cdpVersion: 128.0.2739.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d59602539c4264e60438925490649dcc
+	at ai.spyne.tests.Tests.test03(Tests.java:38)
+</failure>
+    <system-out><![CDATA[Directory Results/Screenshots already exists
+Directory Results/Screenshots already exists
+Directory Results/Screenshots already exists
+]]></system-out>
+  </testcase>
+  <testcase name="test04" classname="ai.spyne.tests.Tests" time="68.779">
+    <failure message="&#10;Method Tests.test04()[pri:3, instance:ai.spyne.tests.Tests@172b013] should have thrown an exception of type class org.openqa.selenium.TimeoutException" type="org.testng.TestException">org.testng.TestException: 
+
+Method Tests.test04()[pri:3, instance:ai.spyne.tests.Tests@172b013] should have thrown an exception of type class org.openqa.selenium.TimeoutException
+</failure>
+    <system-out><![CDATA[Directory Results/Screenshots already exists
+]]></system-out>
+  </testcase>
+</testsuite>

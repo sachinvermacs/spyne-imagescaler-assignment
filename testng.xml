@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="false" verbose="2">
+	<listeners>
+		<listener class-name="core.framework.utils.TestExecutionConfiguration" />
+	</listeners>
+	<test name="TestWithChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="ai.spyne.tests.Tests" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="TestWithEdgeBrowser">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="ai.spyne.tests.Tests" />
+		</classes>
+	</test>
+</suite> <!--
+Suite -->

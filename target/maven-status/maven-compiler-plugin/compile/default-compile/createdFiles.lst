@@ -1,0 +1,6 @@
+core\framework\utils\Configuration.class
+core\framework\utils\Driver.class
+core\framework\utils\CommonUtils.class
+core\framework\utils\ReportGenerator.class
+core\framework\utils\TestExecutionConfiguration.class
+core\framework\utils\Init.class

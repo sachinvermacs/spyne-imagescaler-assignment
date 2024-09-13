@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 212.387 sec <<< FAILURE! - in TestSuite
+test01(ai.spyne.tests.Tests)  Time elapsed: 0.305 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at ai.spyne.tests.Tests.test01(Tests.java:17)
+
+test02(ai.spyne.tests.Tests)  Time elapsed: 56.161 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //button[contains(text(),'Upload an image')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.121, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\sachi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52442/devtoo..., se:cdpVersion: 128.0.6613.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 99f5e789ec21cd577e7d1b125ebfd46d
+	at ai.spyne.tests.Tests.test02(Tests.java:23)
+
+test02(ai.spyne.tests.Tests)  Time elapsed: 11.248 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id="__next"]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/img (tried for 30 second(s) with 500 milliseconds interval)
+	at ai.spyne.tests.Tests.test02(Tests.java:32)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="__next"]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/img"}
+  (Session info: MicrosoftEdge=128.0.2739.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d59602539c4264e60438925490649dcc, findElement {using=xpath, value=//*[@id="__next"]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/img}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52444}, msedge: {msedgedriverVersion: 128.0.2739.67 (248489733b87..., userDataDir: C:\Users\sachi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52444/devtoo..., se:cdpVersion: 128.0.2739.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d59602539c4264e60438925490649dcc
+	at ai.spyne.tests.Tests.test02(Tests.java:32)
+
+test03(ai.spyne.tests.Tests)  Time elapsed: 62.941 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='__next']//button[2]//span[@class='text-xs']"}
+  (Session info: MicrosoftEdge=128.0.2739.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d59602539c4264e60438925490649dcc, findElement {using=xpath, value=//*[@id='__next']//button[2]//span[@class='text-xs']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52444}, msedge: {msedgedriverVersion: 128.0.2739.67 (248489733b87..., userDataDir: C:\Users\sachi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52444/devtoo..., se:cdpVersion: 128.0.2739.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d59602539c4264e60438925490649dcc
+	at ai.spyne.tests.Tests.test03(Tests.java:38)
+
+test04(ai.spyne.tests.Tests)  Time elapsed: 68.779 sec  <<< FAILURE!
+org.testng.TestException: 
+
+Method Tests.test04()[pri:3, instance:ai.spyne.tests.Tests@172b013] should have thrown an exception of type class org.openqa.selenium.TimeoutException
+
